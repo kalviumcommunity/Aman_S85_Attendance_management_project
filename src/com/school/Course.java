@@ -10,7 +10,7 @@ public class Course implements Storable {
     public Course(String courseName) {
         this.courseId = nextCourseIdCounter++; // Auto-increment and assign ID
         this.courseName = courseName;          // Assign course name
-    }
+
 
     // Getter for courseId
     public int getCourseId() {
@@ -26,9 +26,9 @@ public class Course implements Storable {
         System.out.println("Course ID: C" + this.courseId + ", Name: " + this.courseName);
     }
 
+
     @Override
     public String toDataString() {
         // Format: courseId,courseName
         return courseId + "," + courseName;
     }
-}
