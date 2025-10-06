@@ -1,5 +1,5 @@
 
-package com.School;
+package com.school;
 
 public class Person {
     private static int nextIdCounter = 1; // Universal ID counter

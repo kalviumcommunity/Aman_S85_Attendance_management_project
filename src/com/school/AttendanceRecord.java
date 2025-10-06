@@ -1,4 +1,4 @@
-package com.School;
+package com.school;
 
 public class AttendanceRecord implements Storable {
     private Student student; // Changed from studentId to Student object

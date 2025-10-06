@@ -1,4 +1,4 @@
-package com.School;
+package com.school;
 
 import java.io.FileWriter;
 import java.io.IOException;

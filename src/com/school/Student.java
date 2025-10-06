@@ -1,4 +1,4 @@
-package com.School;
+package com.school;
 
 public class Student extends Person implements Storable { // Extends Person
 
