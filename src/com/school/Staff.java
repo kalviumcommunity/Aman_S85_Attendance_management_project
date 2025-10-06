@@ -1,6 +1,6 @@
-package com.School;
+package com.school;
 
-public class Staff extends com.School.Person {
+public class Staff extends Person {
     private String role; // e.g., "Librarian", "Administrator"
 
     public Staff(String name, String role) {
