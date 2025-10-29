@@ -96,3 +96,4 @@ This is a 10-part code-along project to build a console-based school attendance 
 3. Run: `java -cp src com.school.Main`
 4. Check for `students.txt`, `teachers.txt`, `staff.txt`, `courses.txt`, and `attendance_log.txt`.
 
+
