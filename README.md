@@ -96,6 +96,7 @@ This is a 10-part code-along project to build a console-based school attendance 
 3. Run: `java -cp src com.school.Main`
 4. Check for `students.txt`, `teachers.txt`, `staff.txt`, `courses.txt`, and `attendance_log.txt`.
 
+
 ## Part 10: Capacity Management & SOLID Principles Reflection
 - Added a `capacity` feature to the `Course` class, along with an internal list of `enrolledStudents`.
 - Updated `Course.displayDetails()` to show capacity and enrollment count, and `Course.toDataString()` to save capacity.
