@@ -9,7 +9,7 @@ public class AttendanceService {
     private FileStorageService storageService; // For saving/loading attendance
     private final String ATTENDANCE_FILE = "attendance_log.txt"; // Define filename
 
-    public AttendanceService(FileStorageService storageService) {
+    public AttendanceService(FileStorageService storageService, RegistrationService registrationService) {
         this.attendanceLog = new ArrayList<>();
         this.storageService = storageService;
         // In a real app, you'd load existing data here
